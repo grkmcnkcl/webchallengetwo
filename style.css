@@ -1,0 +1,127 @@
+
+html {
+	height: 100%;
+}
+body { 
+	background-image: url(https://www.uhcapps.co.uk/img/landing_background_vig.jpg);
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #929292;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+.userimg {
+	margin-top:180px;
+	margin-left: 350px;
+}
+
+h2 {
+	color:white;
+	
+}
+h3 {
+	color:white;
+	
+}
+
+.jumbotron {
+	background-color: #262626;
+	color:#ffa64d;
+	height: 500px;
+}
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffa64d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b35900;
+}
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+
+.landing {
+	margin-left: 260px;
+}
+
+.landingsub {
+	margin-left: 210px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ffa64d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+img {
+	height: 256px;
+	width:240px;
+}
